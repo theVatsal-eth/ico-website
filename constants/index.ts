@@ -596,7 +596,7 @@ export const TOKEN_CONTRACT_ABI: ContractInterface = [
       }
     ],
     "stateMutability": "nonpayable",
-    "type": "export constructor"
+    "type": "constructor"
   },
   {
     "anonymous": false,
@@ -1003,8 +1003,16 @@ export const TOKEN_CONTRACT_ABI: ContractInterface = [
     "type": "function"
   },
   {
+    "inputs": [],
+    "name": "withdraw",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
     "stateMutability": "payable",
     "type": "receive"
   }
 ]
-export const TOKEN_CONTRACT_ADDRESS = "0x412b7158ff707fE126c65463cFD2474390e7801f"
+
+export const TOKEN_CONTRACT_ADDRESS = "0x3Db7F5EE61369E550227e8fFf025d31DF490D89D"
